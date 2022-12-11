@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D451988E294533B400F9982E /* ReservationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451988D294533B400F9982E /* ReservationCellView.swift */; };
+		D45198912945396400F9982E /* ReservationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45198902945396400F9982E /* ReservationDetailView.swift */; };
+		D451989329453CB400F9982E /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451989229453CB400F9982E /* CloseButton.swift */; };
 		D48B9AF229441064003A937E /* OpenTable_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9AF129441064003A937E /* OpenTable_TestApp.swift */; };
-		D48B9AF429441064003A937E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9AF329441064003A937E /* ContentView.swift */; };
+		D48B9AF429441064003A937E /* TimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9AF329441064003A937E /* TimesView.swift */; };
 		D48B9AF629441066003A937E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48B9AF529441066003A937E /* Assets.xcassets */; };
 		D48B9AF929441066003A937E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48B9AF829441066003A937E /* Preview Assets.xcassets */; };
+		D48B9B0029441084003A937E /* TimesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9AFF29441084003A937E /* TimesProvider.swift */; };
+		D48B9B02294418D6003A937E /* TimeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B01294418D6003A937E /* TimeCellView.swift */; };
+		D48B9B04294420A4003A937E /* PartySizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B03294420A4003A937E /* PartySizeView.swift */; };
+		D48B9B0629442484003A937E /* PartySizeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B0529442484003A937E /* PartySizeCellView.swift */; };
+		D48B9B08294428D2003A937E /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B07294428D2003A937E /* ReservationsView.swift */; };
+		D48B9B0A29442FB3003A937E /* GuestDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B0929442FB3003A937E /* GuestDetailsView.swift */; };
+		D48B9B0C294521F4003A937E /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B0B294521F4003A937E /* Reservation.swift */; };
+		D48B9B1329452F68003A937E /* ReservationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B9B1229452F68003A937E /* ReservationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D451988D294533B400F9982E /* ReservationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCellView.swift; sourceTree = "<group>"; };
+		D45198902945396400F9982E /* ReservationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailView.swift; sourceTree = "<group>"; };
+		D451989229453CB400F9982E /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		D48B9AEE29441064003A937E /* OpenTable-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenTable-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48B9AF129441064003A937E /* OpenTable_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTable_TestApp.swift; sourceTree = "<group>"; };
-		D48B9AF329441064003A937E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D48B9AF329441064003A937E /* TimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesView.swift; sourceTree = "<group>"; };
 		D48B9AF529441066003A937E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D48B9AF829441066003A937E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D48B9AFF29441084003A937E /* TimesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesProvider.swift; sourceTree = "<group>"; };
+		D48B9B01294418D6003A937E /* TimeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCellView.swift; sourceTree = "<group>"; };
+		D48B9B03294420A4003A937E /* PartySizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartySizeView.swift; sourceTree = "<group>"; };
+		D48B9B0529442484003A937E /* PartySizeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartySizeCellView.swift; sourceTree = "<group>"; };
+		D48B9B07294428D2003A937E /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
+		D48B9B0929442FB3003A937E /* GuestDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDetailsView.swift; sourceTree = "<group>"; };
+		D48B9B0B294521F4003A937E /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		D48B9B1229452F68003A937E /* ReservationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D451988F2945394800F9982E /* ReservationDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				D45198902945396400F9982E /* ReservationDetailView.swift */,
+			);
+			path = ReservationDetailView;
+			sourceTree = "<group>";
+		};
+		D451989429464F6300F9982E /* AuxiliaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				D451989229453CB400F9982E /* CloseButton.swift */,
+			);
+			path = AuxiliaryViews;
+			sourceTree = "<group>";
+		};
 		D48B9AE529441064003A937E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +89,14 @@
 		D48B9AF029441064003A937E /* OpenTable-Test */ = {
 			isa = PBXGroup;
 			children = (
+				D451989429464F6300F9982E /* AuxiliaryViews */,
+				D451988F2945394800F9982E /* ReservationDetailView */,
+				D48B9B1129452C99003A937E /* Models */,
+				D48B9B1029452C8B003A937E /* GuestDetailsView */,
+				D48B9B0F29452C79003A937E /* PartySizeView */,
+				D48B9B0E29452C67003A937E /* TimesView */,
+				D48B9B0D29452C51003A937E /* ReservationsView */,
 				D48B9AF129441064003A937E /* OpenTable_TestApp.swift */,
-				D48B9AF329441064003A937E /* ContentView.swift */,
 				D48B9AF529441066003A937E /* Assets.xcassets */,
 				D48B9AF729441066003A937E /* Preview Content */,
 			);
@@ -65,6 +109,51 @@
 				D48B9AF829441066003A937E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D48B9B0D29452C51003A937E /* ReservationsView */ = {
+			isa = PBXGroup;
+			children = (
+				D48B9B07294428D2003A937E /* ReservationsView.swift */,
+				D48B9B1229452F68003A937E /* ReservationsViewModel.swift */,
+				D451988D294533B400F9982E /* ReservationCellView.swift */,
+			);
+			path = ReservationsView;
+			sourceTree = "<group>";
+		};
+		D48B9B0E29452C67003A937E /* TimesView */ = {
+			isa = PBXGroup;
+			children = (
+				D48B9B01294418D6003A937E /* TimeCellView.swift */,
+				D48B9AF329441064003A937E /* TimesView.swift */,
+			);
+			path = TimesView;
+			sourceTree = "<group>";
+		};
+		D48B9B0F29452C79003A937E /* PartySizeView */ = {
+			isa = PBXGroup;
+			children = (
+				D48B9B0529442484003A937E /* PartySizeCellView.swift */,
+				D48B9B03294420A4003A937E /* PartySizeView.swift */,
+			);
+			path = PartySizeView;
+			sourceTree = "<group>";
+		};
+		D48B9B1029452C8B003A937E /* GuestDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				D48B9B0929442FB3003A937E /* GuestDetailsView.swift */,
+			);
+			path = GuestDetailsView;
+			sourceTree = "<group>";
+		};
+		D48B9B1129452C99003A937E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D48B9B0B294521F4003A937E /* Reservation.swift */,
+				D48B9AFF29441084003A937E /* TimesProvider.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48B9AF429441064003A937E /* ContentView.swift in Sources */,
+				D48B9B0629442484003A937E /* PartySizeCellView.swift in Sources */,
+				D451988E294533B400F9982E /* ReservationCellView.swift in Sources */,
+				D48B9AF429441064003A937E /* TimesView.swift in Sources */,
+				D48B9B0C294521F4003A937E /* Reservation.swift in Sources */,
+				D48B9B1329452F68003A937E /* ReservationsViewModel.swift in Sources */,
+				D48B9B0A29442FB3003A937E /* GuestDetailsView.swift in Sources */,
+				D451989329453CB400F9982E /* CloseButton.swift in Sources */,
+				D45198912945396400F9982E /* ReservationDetailView.swift in Sources */,
+				D48B9B0029441084003A937E /* TimesProvider.swift in Sources */,
+				D48B9B04294420A4003A937E /* PartySizeView.swift in Sources */,
+				D48B9B08294428D2003A937E /* ReservationsView.swift in Sources */,
 				D48B9AF229441064003A937E /* OpenTable_TestApp.swift in Sources */,
+				D48B9B02294418D6003A937E /* TimeCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenTable-Test/Preview Content\"";
-				DEVELOPMENT_TEAM = PX5Y5RB5P2;
+				DEVELOPMENT_TEAM = 33W8TV4FP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -275,12 +375,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.OpenTable-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.OpenTable-Testtt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,7 +397,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenTable-Test/Preview Content\"";
-				DEVELOPMENT_TEAM = PX5Y5RB5P2;
+				DEVELOPMENT_TEAM = 33W8TV4FP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,12 +405,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.OpenTable-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jose.OpenTable-Testtt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

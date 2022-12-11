@@ -7,20 +7,46 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TimesView: View {
+    let availableTimes = TimesProvider.getTimesStrings()
+    @State private var showingSheet = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                ScrollView {
+                    ForEach(0..<availableTimes.count, id: \.self) { index in
+                        TimeCellView(time: availableTimes[index])
+                            .onTapGesture {
+                                showingSheet.toggle()
+                            }
+                            .sheet(isPresented: $showingSheet) {
+                                SheetView()
+                            }
+                    }
+                }
+            }
+            .navigationTitle("Select a time")
         }
-        .padding()
     }
 }
 
+struct SheetView: View {
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        Button("Press to dismiss") {
+            dismiss()
+        }
+        .font(.title)
+        .padding()
+        .background(.black)
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TimesView()
     }
 }
